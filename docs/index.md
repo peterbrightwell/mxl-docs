@@ -2,13 +2,10 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
 # MXL : Media eXchange Layer
+<a href="https://github.com/dmf-mxl/mxl">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="48" alt="GitHub Logo"/>
+</a> [Contribute!](https://github.com/dmf-mxl/mxl)
 
-[![Build Pipeline](https://github.com/dmf-mxl/mxl/actions/workflows/build.yml/badge.svg)](https://github.com/dmf-mxl/mxl/actions/workflows/build.yml)
-[![GitHub release](https://img.shields.io/github/v/release/dmf-mxl/mxl)](https://github.com/dmf-mxl/mxl/releases)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE.txt)
-[![Issues](https://img.shields.io/github/issues/dmf-mxl/mxl)](https://github.com/dmf-mxl/mxl/issues)
-
-[Go straight to documentation](#governance)
 
 # What is MXL?
 
@@ -28,6 +25,10 @@ MXL:
 - can be deployed on local (on-premise) or cloud compute
 - is suitable for use in containerised environments
 
+# Motivation
+
+See [Motivation](Motivation.md) for more information about the motivation behind the MXL project.
+
 # Getting Started
 
 See [Getting Started](Getting%20Started.md) for more information about how to get started with MXL.
@@ -38,6 +39,7 @@ Information about the governance of the MXL project, including the project gover
 
 # Technical Documentation
 
+- [APIs](APIs.md)
 - [MXL Architecture](Architecture.md)
 - [SDK Usage](Usage.md)
 - [Building options](Building.md)
