@@ -41,8 +41,8 @@ Enables memory sharing through controlled data movement.
 # Getting Started
 
 - A good hands-on way to start is with the [cbcrc/mxl-hands-on](https://github.com/cbcrc/mxl-hands-on) repo. This provides a guided workshop/tutorial tht helps the user set up and MXL hands-on through exercises.
-- The MXL SDK, can be built using a devcontainer or CMake. For more details see [here](docs/Building.md).
-- Information about example tools to work with MXL, including GStreamer pipelines, are [here](docs/Tools.md)
+- The MXL SDK, can be built using a devcontainer or CMake. For more details see [here](Building.md).
+- Information about example tools to work with MXL, including GStreamer pipelines, are [here](Tools.md)
 - There are some examples of how to use MXL with Docker Compose and Kubernetes [here](examples/README.md).
 
 # Motivation
@@ -53,7 +53,7 @@ To address these challenges, the [EBU Dynamic Media Facility (DMF)](https://tech
 
 At the heart of the [DMF architecture](https://tech.ebu.ch/publications/white-paper-2024-09-03) lies the Media exchange layer, a high-performance data plane designed to simplify and accelerate communication between these distributed media functions. This enables entirely new production paradigms, including asynchronous “faster-than-live” workflows, allowing teams to produce content more flexibly and quickly than traditional linear models permit. Moreover, its extensible design supports evolving exchange mechanisms and new media formats as they emerge, ensuring that the architecture is well equipped to evolve alongside technological progress. MXL is an open-source implementation of that layer.
 
-![docs/Media eXchange Layer.png](https://github.com/dmf-mxl/mxl/blob/53e889c888b2daceb4bf550943f3a194f559f182/docs/Media%20eXchange%20Layer.png "MXL Layer Diagram")
+![Media eXchange Layer.png](https://github.com/dmf-mxl/mxl/blob/53e889c888b2daceb4bf550943f3a194f559f182/Media%20eXchange%20Layer.png "MXL Layer Diagram")
 
 In order to encourage broad industry adoption, the European Broadcasting Union (EBU) and the North American Broadcasters Association (NABA) are pursuing an “implement-first” strategy. This practical, hands-on approach involves close collaboration with broadcasters and technology suppliers to produce an open-source software development kit that promotes interoperability and showcases real-world use cases for the MXL. The first alpha version of this SDK was released in June 2025. Ultimately, the DMF initiative aspires to establish a new baseline for open, interoperable software-based live production, a foundation that is robust, future-proof, and capable of sustaining innovation across the entire media ecosystem.
 
@@ -69,10 +69,10 @@ In order to encourage broad industry adoption, the European Broadcasting Union (
 
 ## Technical Documentation
 
-- [MXL Architecture](docs/Architecture.md)
-- [SDK Usage](docs/Usage.md)
-- [Building options](docs/Building.md)
-- [Tools](docs/Tools.md)
+- [MXL Architecture](Architecture.md)
+- [SDK Usage](Usage.md)
+- [Building options](Building.md)
+- [Tools](Tools.md)
 
 ## License
 
