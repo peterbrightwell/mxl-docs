@@ -11,13 +11,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Documentation"
+site_name = "MXL Documentation"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "Documentation for the Media eXchange Layer (MXL) project"
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -44,10 +44,32 @@ Copyright &copy; 2026 The authors
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+    { "Home" = "index.md" },
+    { "Introduction" = [
+        "introduction/Motivation.md",
+        "introduction/Getting Started.md",
+        "introduction/APIs.md",
+        "introduction/Governance.md",
+    ]},
+    { "Guide" = [
+        "guide/Building.md",
+        "guide/Configuration.md",
+        "guide/API Usage.md",
+        "guide/Tools.md",
+    ]},
+    { "Architecture" = [
+        { "Overview" = "architecture/Overview.md" },
+        { "Shared Memory" = "architecture/Shared Memory Model.md" },
+        { "Security" = "architecture/Security Model.md" },
+        { "Timing" = "architecture/Timing Model.md" },
+        { "Ring Buffer Types" = "architecture/Ring Buffer Types.md" },
+        { "Grain I/O" = "architecture/Discrete Grain IO.md" },
+        { "Continuous I/O" = "architecture/Continuous Ring Buffer IO.md" },
+        { "Grain Formats" = "architecture/Grain Formats.md" },
+        { "Addressability" = "architecture/Addressability.md" },
+    ]}
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -169,7 +191,7 @@ features = [
     # Turn on this feature to expand all collapsible sections in the
     # navigation sidebar by default.
     # https://zensical.org/docs/setup/navigation/#navigation-expansion
-    # "navigation.expand",
+    "navigation.expand",
 
     # This feature turns on navigation elements in the footer that allow the
     # user to navigate to a next or previous page.
@@ -210,7 +232,7 @@ features = [
     # When sections are enabled, top-level sections are rendered as groups in
     # the sidebar for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-sections
-    "navigation.sections",
+    # "navigation.sections",
 
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
@@ -254,7 +276,7 @@ features = [
 # option in the "theme" subsection. The logo must be a relative path to a file
 # in your "docs_dir", e.g., to use `docs/assets/logo.png` you would set:
 # ----------------------------------------------------------------------------
-#logo = "assets/logo.png"
+logo = "assets/mxl-on-blue-square.svg"
 
 # ----------------------------------------------------------------------------
 # If you don't have a dedicated project logo, you can use a built-in icon from
