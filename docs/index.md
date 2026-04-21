@@ -6,6 +6,7 @@
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="48" alt="GitHub Logo"/>
 </a> [Contribute!](https://github.com/dmf-mxl/mxl)
 
+v1.0.1
 
 # What is MXL?
 
